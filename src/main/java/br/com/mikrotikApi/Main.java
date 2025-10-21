@@ -15,7 +15,7 @@ public class Main {
         try {
             apiMk.login("192.168.88.1", "admin", "123456", 8728);
             Command cmd = new Command("/system/resource/print");
-            cmd.addProperty("uptime", "board-name");
+            //cmd.addProperty("uptime", "board-name");
 
             List<Map<String, String>> rs = apiMk.execute(cmd);
 
