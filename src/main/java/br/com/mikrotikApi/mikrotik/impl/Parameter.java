@@ -1,4 +1,4 @@
-package com.esotar.api.integrations.mikrotik.impl;
+package br.com.mikrotikApi.mikrotik.impl;
 
 public class Parameter {
     @Override
