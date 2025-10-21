@@ -13,6 +13,7 @@ public class Main {
         ApiMk apiMk = new ApiMkImpl();
 
         try {
+                              //ip             // login    // password       // port
             apiMk.login("192.168.88.1", "admin", "123456", 8728);
             Command cmd = new Command("/system/resource/print");
             //cmd.addProperty("uptime", "board-name");
